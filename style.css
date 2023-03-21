@@ -4,12 +4,15 @@ html {
 
 body {
     width: 400px;
+    text-align: center;
+    margin: auto;
     /* background-color: #fdf4e9; */
 }
 
 #welcome {
+    margin-top: 50px;
     padding: 5px;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     background-color: #bfbdbd;
     color: white;
     border-radius: 2px;
@@ -23,7 +26,8 @@ body {
 #hid_unhid {
     background-color: #f5cfa0;
     padding: 4px;
-    padding-left: 75px;
+    margin-bottom: 30px;
+    /* padding-left: 75px; */
     border-radius: 16px;
     color: #575757;
     transition: transform 0.5s ease;
